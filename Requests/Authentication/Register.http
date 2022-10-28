@@ -1,0 +1,11 @@
+@host=https://localhost:7172
+POST {{host}}/auth/register
+
+Content-Type: application/json
+
+{
+    "firstName":"Yakoub",
+    "lastName":"Bouzidi",
+    "email":"ybouzidi@nexity.fr",
+    "password":"Ybouzidi1232!"
+}

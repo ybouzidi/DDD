@@ -1,0 +1,9 @@
+@host=https://localhost:7172
+POST {{host}}/auth/login
+
+Content-Type: application/json
+
+{
+    "email":"ybouzidi@nexity.fr",
+    "password":"Ybouzidi1232!"
+}
